@@ -1,0 +1,1 @@
+function l(n,e,a=!0){const{x:i,y:c,z:o,h:s,p:r,r:m}=e,t={destination:new Cesium.Cartesian3(i,c,o),orientation:{heading:s,pitch:r,roll:m}};a?n.camera.flyTo(t):n.scene.camera.setView(t)}function y(n){const e={},a=n.scene.camera.position;return e.x=a.x,e.y=a.y,e.z=a.z,e.h=n.scene.camera.heading,e.p=n.scene.camera.pitch,e.r=n.scene.camera.roll,e}export{y as g,l as i};
